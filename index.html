@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #001f3f;
+            color: white;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar a {
+            padding: 10px 15px;
+            margin: 5px 0;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #0056b3;
+        }
+
+        section {
+            padding: 100px 20px;
+            height: 100vh;
+        }
+
+        #o-mnie { background-color: #002f5f; }
+        #repozytorium { background-color: #003f7f; }
+        #kontakt { background-color: #004f9f; }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#o-mnie">O mnie</a>
+        <a href="#repozytorium">Repozytorium</a>
+        <a href="#kontakt">Kontakt</a>
+    </div>
+
+    <section id="o-mnie">
+        <h1>O mnie</h1>
+        <p>Cześć! Jestem analitykiem danych i tworzę ciekawe projekty z zakresu danych medycznych.</p>
+    </section>
+
+    <section id="repozytorium">
+        <h1>Repozytorium</h1>
+        <p>Znajdziesz tu moje projekty. Pracuję z Pythonem, R oraz SQL w analizie danych.</p>
+    </section>
+
+    <section id="kontakt">
+        <h1>Kontakt</h1>
+        <p>Możesz się ze mną skontaktować przez e-mail: przyklad@example.com.</p>
+    </section>
+
+</body>
+</html>
